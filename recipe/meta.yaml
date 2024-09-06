@@ -1,5 +1,5 @@
 {% set name = "myst-sphinx-gallery" %}
-{% set version = "0.2.2" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/myst_sphinx_gallery-{{ version }}.tar.gz
-  sha256: ba9b892abfe1f6ed8f9b9410a83ff412f995f075d2c3fd63bbf0c0a3190e1ad1
+  sha256: bc22d6ad4e486f8a11233f1a78bb4790220cb62725674acb7c978cf9144f175c
 
 build:
   noarch: python
